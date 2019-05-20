@@ -1,0 +1,155 @@
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 0 entities to in-memory store.
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 2 entities to in-memory store.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using '/home/franciscolfranco/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+Hosting environment: Development
+Content root path: /home/franciscolfranco/contoso-pets/src/ContosoPets.Api
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:5001/api/Products application/json 38
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Create", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api) in 225.6736ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 299.5829ms 400 application/problem+json; charset=utf-8
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:5001/api/Products application/json 39
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Create", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api) with arguments (ContosoPets.Api.Models.Product) - Validation state: Valid
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 1 entities to in-memory store.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 9.9342ms.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'ContosoPets.Api.Models.Product'.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api) in 74.1795ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.Create (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 76.503ms 201 application/json; charset=utf-8
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/api/Products/3  
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.GetById (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "GetById", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.GetById (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method ContosoPets.Api.Controllers.ProductsController.GetById (ContosoPets.Api) with arguments (3) - Validation state: Valid
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method ContosoPets.Api.Controllers.ProductsController.GetById (ContosoPets.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 53.3425ms.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'ContosoPets.Api.Models.Product'.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.GetById (ContosoPets.Api) in 54.5536ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.GetById (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 60.7882ms 200 application/json; charset=utf-8
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 PUT https://localhost:5001/api/Products/2 application/json 44
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Update", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api) with arguments (2, ContosoPets.Api.Models.Product) - Validation state: Valid
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 1 entities to in-memory store.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 7.5626ms.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing HttpStatusCodeResult, setting HTTP status code 204
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api) in 9.0034ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.3788ms 204 
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 PUT https://localhost:5001/api/Products/2 application/json 44
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Update", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api) with arguments (2, ContosoPets.Api.Models.Product) - Validation state: Valid
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 1 entities to in-memory store.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 0.6745ms.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing HttpStatusCodeResult, setting HTTP status code 204
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api) in 1.3186ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.Update (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5871ms 204 
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE https://localhost:5001/api/Products/1  
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.Delete (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Delete", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.Delete (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method ContosoPets.Api.Controllers.ProductsController.Delete (ContosoPets.Api) with arguments (1) - Validation state: Valid
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 1 entities to in-memory store.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method ContosoPets.Api.Controllers.ProductsController.Delete (ContosoPets.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 6.7238ms.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing HttpStatusCodeResult, setting HTTP status code 204
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.Delete (ContosoPets.Api) in 7.0084ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.Delete (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.4855ms 204 
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/api/Products  
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'ContosoPets.Api.Controllers.ProductsController.GetAll (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "GetAll", controller = "Products"}. Executing action ContosoPets.Api.Controllers.ProductsController.GetAll (ContosoPets.Api)
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method ContosoPets.Api.Controllers.ProductsController.GetAll (ContosoPets.Api) - Validation state: Valid
+[40m[32minfo[39m[22m[49m: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.2.4-servicing-10062 initialized 'ContosoPetsContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ContosoPets 
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method ContosoPets.Api.Controllers.ProductsController.GetAll (ContosoPets.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.2621ms.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContosoPets.Api.Models.Product, ContosoPets.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action ContosoPets.Api.Controllers.ProductsController.GetAll (ContosoPets.Api) in 11.5547ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'ContosoPets.Api.Controllers.ProductsController.GetAll (ContosoPets.Api)'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.8059ms 200 application/json; charset=utf-8
